@@ -1,0 +1,26 @@
+= Установка
+
+Сначала колнируем репозиторий:
+
+----
+git clone git@github.com:apalkoff/postage_code.git
+----
+
+Потом заходим внутрь и делаем виртуальное окружение:
+
+----
+cd postage_code
+python3 -m venv ./venv
+----
+
+Теперь устанавливаем в режиме разработки:
+
+----
+pip install -e .
+----
+
+= Запуск
+
+----
+postage -c XXXXXXXXXXXXX
+----
